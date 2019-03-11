@@ -28,9 +28,10 @@ public class GUITEST1 extends Application {
 		
 		MenuBar menubar = new MenuBar(); //creating MenuBar  
 		Menu MenuName1 = new Menu("File"); //creating Menu  
+		Menu MenuName2 = new Menu("Edit"); //creating Menu  
 		MenuItem MenuItem1 = new MenuItem("New"); //creating Menu Item 
 		MenuName1.getItems().addAll(MenuItem1,new MenuItem("Save")); //adding Menu Item to the Menu  
-		menubar.getMenus().add(MenuName1); //adding Menu to the MenuBar 
+		menubar.getMenus().addAll(MenuName1,MenuName2); //adding Menu to the MenuBar 
 		VBox root1 = new VBox(menubar);
 		root1.setMinSize(800, 20);
 		//root1.getChildren().add(menubar);
