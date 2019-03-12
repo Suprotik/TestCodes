@@ -36,8 +36,13 @@ public class GUITEST1 extends Application {
 		//root1.getChildren().add(menubar);
 
 		GridPane root2=new GridPane();
-		Button btn=new Button("This is a button"); 
-		root2.getChildren().add(btn);
+		Button btn1=new Button("This is a button"); 
+		root2.getChildren().add(btn1);
+		Button btn2=new Button("This is a button"); 
+		root2.getChildren().add(btn2);
+		Button btn3=new Button("This is a button"); 
+		root2.getChildren().add(btn3);
+		
 		
 		
 		
