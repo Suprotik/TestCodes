@@ -30,7 +30,7 @@ public class msgAuthCode {
 	      mac.init(key);
 
 	      //Computing the Mac
-	      String msg = new String("TestMAC");
+	      String msg = new String("New test");
 	      byte[] bytes = msg.getBytes();      
 	      byte[] macResult = mac.doFinal(bytes);
 	      System.out.println("Input :" +msg);
